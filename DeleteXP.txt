@@ -1,0 +1,44 @@
+Delete XP Version 2.5 
+=====================
+
+1. What is Delete XP?
+Delete XP is for deleting files from Command Prompt in Windows (Windows 9x and Windows NT 4.0/2000/XP). Unlike, the standard "DEL" command which only deletes the file, Delete XP deletes the files and sends them to the recycle bin. In our opinion, this is what DEL command in the command prompt of Windows should have been!. 
+
+2. What's new?
+Version 2.5
+- Fixed the IE closing problem when Delete is run.
+
+Version 2.0
+- This version is NOT a revision - it is a complete rewrite. 
+- I have used only Win32 API calls. 
+- I have improved/optimized the code - earlier users should find this version faster! 
+- Long file names are accepted - just put them in quotes. 
+- The recycle bin icon now refreshes after deletion. 
+
+3. Differences/Enhancements over the DEL command. 
+- As said earlier this program does not delete files permanently. It sends files to the recycle bin instead. This allows you to recover accidentally deleted files. 
+- As far as I know, DELETE XP is fully compatible with the syntax of Windows DEL command. 
+- DELETE XP adds two new options /a and /v. THANKS TO MANY OF 4DOS users who suggested including a parameter to delete all files irrespective of attributes. 
+- Under Windows NT, 2000 & XP, the DEL command accepts multiple file names as parameters, but under Win95 DEL behaves like the older DOS command. Delete XP accepts multiple file names/wild cards in all versions of Windows. 
+
+For example you can specify 
+
+DELETE "C:\Program Files\README.*" Hello?.DOC *.BAK to delete three different group of files. For details try DELETE.EXE /? 
+
+4. Requirement(s): 
+- Any machine compatible with Windows 95/98/ME/NT 4.0/2000/XP. 
+
+5. Tech. Info: 
+- Delete.Exe is a Win32 console mode application. 
+- Written using Microsoft Visual C++ 6.0 SP6 compiler under Windows XP Professional. 
+- Latest version tested under Windows 2000 and XP. 
+
+6. How to install? 
+Copy the file, Delete.Exe, to a folder of your choice. Make sure this directory/folder is in your current path. The program DOES NOT USE any of the MFC/VB dll's. 
+
+7. What does it cost? 
+DELETE XP is FREEWARE. Feel free to distribute. Please try to send us an e-mail (venkatarangan@nospam.hotmail.com), so that I know of the reach. 
+
+8.How to contact us?
+Twitter: @venkatarangan
+URL: https://www.venkatarangan.com

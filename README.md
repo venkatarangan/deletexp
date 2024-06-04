@@ -1,10 +1,12 @@
 # DeleteXP
-For moving deleted files from Command Prompt in Windows to Recycle Bin.
+This is a handy tool for moving deleted files from the Command Prompt in Windows directly to the Recycle Bin.
 
-Delete XP is for deleting files from Command Prompt in Windows (Windows 9x and Windows NT 4.0/2000/XP). Unlike, the standard “DEL” command which only deletes the file, Delete XP deletes the files and sends them to the recycle bin. In my opinion, this is what DEL command in the command prompt of Windows should have been!.
+DeleteXP was written to add a missing functionality in the file deletion process in Windows command environments like Windows 9x and Windows NT 4.0/2000/XP. The standard “DEL” command merely removes files, but DeleteXP takes it a step further by safely sending them to the recycle bin. Personally, I believe this functionality should have been the default for the DEL command in Windows' command prompt!
 
-# Download
-The Executable (.exe) file was built around in 2000 with the then available Windows SDK. This ready-to-use binary is available in the release folder. I have made some changes in the source code (.CPP) file with the display text, but otherwise the functionality should be the same from the original sourceode from which the binary was generated. 
+## Download
+The executable (.exe) file for DeleteXP was originally built back in 2000 using the Windows SDK available at that time. You can find this ready-to-use binary in the release folder. I've recently updated the source code (.CPP) file to tweak some display text, but the core functionality remains consistent with the original source code from which the binary was derived.
+
+Just today, I tested the binary (.exe) from the Terminal in Windows 11, and it perfectly moved the specified files to the Recycle Bin, demonstrating the enduring reliability of the Win32 APIs in Windows, even after more than twenty-five years. 
 
 ### DeleteXP.exe
 Filesize: 61440 bytes
